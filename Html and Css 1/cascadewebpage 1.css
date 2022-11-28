@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    }
+    .wrapper{
+    background: url(Screenshot\ \(16\)1.png)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    }
+    .navbar{
+    height: 100px;
+    width: 100%;
+    background: rgba(0,0,0,4);
+    
+    }
+    .logo{
+    width: 60px;
+    height: auto;
+    padding: 20px 20px;
+    }
+    .navbar ul{
+    float:right;
+    margin-right: 20px;
+    }
+    .navbar ul li{
+    list-style:none;
+    margin: 0px;
+    display: inline-block;
+    line-height: 80px;
+    
+    }
+    .navbar ul a{
+    text-decoration: none;
+    color:azure;
+    font-size: 20px;
+    font-family: 'roboto',sans-serif;
+    transition: 4s;
+    }
+    .navbar ul li a.active
+    .navbar ul li a:hover{
+    background: red;
+    border-radius: 2px;
+    }
+    .wrapper .center{
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    user-select: none;
+    
+    }
+    .center h1{
+    color: rgb(247, 11, 11);
+    font-size: 70px;
+    width: 1000px;
+    font-weight: bold;
+    text-align: right;
+    
+
+    }
+    .center h2{
+    color: rgba(253, 0, 0, 0.918);
+    font-size: 20px;
+    width: 900px;
+    font-weight: lighter;
+    text-align: right;
+    margin-top: 10px;
+    
+    }
+    .center .buttons{
+    margin: 100px 280px;
+    
+    }
+    .buttons button{
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: 600;
+    color:white;
+    background: red;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid #cc0000;
+    border-radius: 1000px;
+    transition: 8s;
+    
+    }
+    .buttons .btn2{
+    margin-left: 25px;
+    
+    }
+    .buttons button:hover{
+    background: #cc0000;
+    }
